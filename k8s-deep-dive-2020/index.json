@@ -1,0 +1,247 @@
+{
+  "title": "Troubleshooting Outages in Kubernetes Applications",
+  "description": "Catching and preventing failures in Kubernetes using Datadog.",
+  "details": {
+    "steps": [
+      {
+        "title": "Explore the environment",
+        "text": "00a-explore.md"
+      },
+      {
+        "title": "Part 2: Install Datadog in Kubernetes",
+        "text": "00b-part2-begin.md"
+      },
+      {
+        "title": "Datadog credentials setup",
+        "text": "01-datadog-account.md"
+      },
+      {
+        "title": "Install the Datadog agent in Kubernetes",
+        "text": "02-agent.md"
+      },
+      {
+        "title": "Taints, tolerations, and the agent",
+        "text": "03-agent-master.md"
+      },
+      {
+        "title": "Run the agent everywhere",
+        "text": "04-agent-everywhere.md"
+      },
+      {
+        "title": "Understanding Kubernetes observability data",
+        "text": "06-k8s-dashboard.md"
+      },
+      {
+        "title": "Integration: kube-state-metrics",
+        "text": "07-ksm.md"
+      },
+      {
+        "title": "Integration: Logs",
+        "text": "08-logs.md"
+      },
+      {
+        "title": "Update the agent rollout strategy",
+        "text": "09-agent-rollout.md"
+      },
+      {
+        "title": "Real time logs in live tail",
+        "text": "10a-live-tail.md"
+      },
+      {
+        "title": "Visualize the cluster in Datadog",
+        "text": "10b-container-map.md"
+      },
+      {
+        "title": "Deploy the Cluster Agent",
+        "text": "10c-deploy-cluster-agent.md"
+      },
+      {
+        "title": "Part 2: Complete",
+        "text": "10d-part2-end.md"
+      },
+      {
+        "title": "Part 3: Instrument Kubernetes",
+        "text": "10e-part3-begin.md"
+      },
+      {
+        "title": "Integration: Kubernetes control plane",
+        "text": "11-control-plane.md"
+      },
+      {
+        "title": "Integration: kube-proxy",
+        "text": "12-kube-proxy.md"
+      },
+      {
+        "title": "View containers in real time from Datadog",
+        "text": "13-container-details.md"
+      },
+      {
+        "title": "Collect Kubernetes apiserver audit logs",
+        "text": "14-audit-logs.md"
+      },
+      {
+        "title": "Configure Kubernetes audit log policy",
+        "text": "15-audit-logs-policies.md"
+      },
+      {
+        "title": "Configure Kubernetes audit logs in Datadog",
+        "text": "16-audit-logs-datadog.md"
+      },
+      {
+        "title": "Part 3: Complete",
+        "text": "17a-part3-end.md"
+      },
+      {
+        "title": "Part 4: Diagnosis and Troubleshooting",
+        "text": "17b-part4-begin.md"
+      },
+      {
+        "title": "Deploy sample applications",
+        "text": "18-deploy-sample-apps.md"
+      },
+      {
+        "title": "Troubleshooting 1: ImagePullBackoff",
+        "text": "19-a-troubleshooting-imagepullbackoff.md"
+      },
+      {
+        "title": "Troubleshooting 2: CrashLoopBackoff",
+        "text": "19-b-troubleshooting-crashloopbackoff.md"
+      },
+      {
+        "title": "Troubleshooting 3: Liveness probe",
+        "text": "19-c-troubleshooting-liveness-probe.md"
+      },
+      {
+        "title": "Troubleshooting 4: Readiness probe",
+        "text": "19-d-troubleshooting-readiness-probe.md"
+      },
+      {
+        "title": "Troubleshooting 5: Scheduling issues",
+        "text": "19-e-troubleshooting-resources.md"
+      },
+      {
+        "title": "Troubleshooting 6: Identifying a RBAC issue",
+        "text": "19-f-troubleshooting-rbac.md"
+      },
+      {
+        "title": "Troubleshooting 7: Identifying an apiserver spammer",
+        "text": "19-g-troubleshooting-apiserver-spam.md"
+      },
+      {
+        "title": "Advanced Content",
+        "text": "20-advanced-content.md"
+      },
+      {
+        "title": "DNS",
+        "text": "21-dns.md"
+      },
+      {
+        "title": "Tracing",
+        "text": "22-tracing-pod-lister.md"
+      },
+      {
+        "title": "Step 35",
+        "text": "step35.md"
+      },
+      {
+        "title": "Step 36",
+        "text": "step36.md"
+      },
+      {
+        "title": "Step 37",
+        "text": "step37.md"
+      },
+      {
+        "title": "Step 38",
+        "text": "step38.md"
+      },
+      {
+        "title": "Step 39",
+        "text": "step39.md"
+      },
+      {
+        "title": "Step 40",
+        "text": "step40.md"
+      },
+      {
+        "title": "Step 41",
+        "text": "step41.md"
+      },
+      {
+        "title": "Step 42",
+        "text": "step42.md"
+      },
+      {
+        "title": "Step 43",
+        "text": "step43.md"
+      },
+      {
+        "title": "Step 44",
+        "text": "step44.md"
+      },
+      {
+        "title": "Step 45",
+        "text": "step45.md"
+      },
+      {
+        "title": "Step 46",
+        "text": "step46.md"
+      },
+      {
+        "title": "Step 47",
+        "text": "step47.md"
+      },
+      {
+        "title": "Step 48",
+        "text": "step48.md"
+      },
+      {
+        "title": "Step 49",
+        "text": "step49.md"
+      },
+      {
+        "title": "Step 50",
+        "text": "step50.md"
+      },
+      {
+        "title": "Step 51",
+        "text": "step51.md"
+      },
+      {
+        "title": "Step 52",
+        "text": "step52.md"
+      },
+      {
+        "title": "Step 53",
+        "text": "step53.md"
+      },
+      {
+        "title": "Step 54",
+        "text": "step54.md"
+      },
+      {
+        "title": "Step 55",
+        "text": "step55.md"
+      },
+      {
+        "title": "Step 56",
+        "text": "step56.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "background.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "datadog-kubernetes-cluster-running",
+    "reuseConnection": true,
+    "livetime": "4h"
+  }
+}
